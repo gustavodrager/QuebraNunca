@@ -1,0 +1,12 @@
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.exe
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.deps.json
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.runtimeconfig.json
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.runtimeconfig.dev.json
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.dll
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\bin\Release\netcoreapp3.1\QuebraNunca.pdb
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.AssemblyInfoInputs.cache
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.AssemblyInfo.cs
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.dll
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.pdb
+C:\Users\gustavo.drager\Source\Repos\QuebraNunca\QuebraNunca\obj\Release\netcoreapp3.1\QuebraNunca.genruntimeconfig.cache
