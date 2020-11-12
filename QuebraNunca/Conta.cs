@@ -11,22 +11,30 @@ namespace QuebraNunca
         public double saldo;
 
         public bool Debitar(double valor) {
-            if (this.saldo < valor) {
+            if (saldo < valor) {
                 return false;
             }
             else {
-                this.saldo -= valor;
+                saldo -= valor;
 
                 return true;
             }
         }
 
         public void Creditar(double valor) {
-            this.saldo += valor;
+            saldo += valor;
         }
 
         public double ObterSaldo() {
             return saldo;
+        }
+
+        public void DefinirSaldo(double saldo) {
+            if (saldo < 0) {
+                return;
+            }
+
+            this.saldo = saldo;
         }
     }
 }
