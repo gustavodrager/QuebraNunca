@@ -12,6 +12,14 @@ namespace QuebraNunca
             atleta.lado = "esquerdo";
             atleta.saldo = 100;
 
+            Atleta atleta = new Atleta();
+
+            atleta.nome = "Tiago";
+            atleta.lado = "direito";
+            atleta.saldo = 700;
+
+
+
             Console.WriteLine(atleta.nome);
             Console.WriteLine(atleta.lado);
             Console.WriteLine(atleta.saldo);
