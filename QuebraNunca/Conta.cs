@@ -24,5 +24,9 @@ namespace QuebraNunca
         public void Creditar(double valor) {
             this.saldo += valor;
         }
+
+        public double ObterSaldo() {
+            return saldo;
+        }
     }
 }
