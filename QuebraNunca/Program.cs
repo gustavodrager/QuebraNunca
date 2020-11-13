@@ -6,34 +6,20 @@ namespace QuebraNunca
     {
         static void Main(string[] args) {
 
+            Conta conta = new Conta();
             Atleta atleta = new Atleta();
 
-            atleta.nome = "Gustavo";
+            atleta.nome = "gustavo";
             atleta.lado = "esquerdo";
             atleta.saldo = 100;
 
-            Atleta atleta = new Atleta();
+            conta.Saldo = -20;
+            conta.Nome = atleta;
+            conta.descricao = "churrasco";
 
-            atleta.nome = "Tiago";
-            atleta.lado = "direito";
-            atleta.saldo = 700;
-
-
-
-            Console.WriteLine(atleta.nome);
-            Console.WriteLine(atleta.lado);
-            Console.WriteLine(atleta.saldo);
-
-            Console.WriteLine(atleta.nome == atleta.lado);
-
-            atleta.Debitar(50);
-
-            Console.WriteLine(atleta.saldo);
-
-            atleta.Creditar(100);
-
-            Console.WriteLine(atleta.saldo);
-
+            Console.WriteLine(conta.Nome.nome);
+            Console.WriteLine(conta.Saldo);
+            
             Console.ReadLine();
         }
     }
