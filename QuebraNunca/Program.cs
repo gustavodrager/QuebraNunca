@@ -9,15 +9,15 @@ namespace QuebraNunca
             Conta conta = new Conta();
             Atleta atleta = new Atleta();
 
-            atleta.nome = "gustavo";
-            atleta.lado = "esquerdo";
-            atleta.saldo = 100;
+            atleta.Nome = "gustavo";
+            atleta.Lado = "esquerdo";
+            atleta.Saldo = 100;
 
             conta.Saldo = -20;
             conta.Nome = atleta;
             conta.descricao = "churrasco";
 
-            Console.WriteLine(conta.Nome.nome);
+            Console.WriteLine(conta.Nome.Nome);
             Console.WriteLine(conta.Saldo);
             
             Console.ReadLine();

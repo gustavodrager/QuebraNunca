@@ -1,8 +1,18 @@
 ﻿public class Atleta
 {
-    public string nome;
-    public string lado;
-    public double saldo;
+    private double _saldo;
+    public string Nome { get; set; }
+    public string Lado { get; set; }
+    public double Saldo {
+        get {
+            return _saldo;
+        }
+        set {
+            //logica validacao
+            _saldo = value;
+        }
+    }
+
 
 
 }
