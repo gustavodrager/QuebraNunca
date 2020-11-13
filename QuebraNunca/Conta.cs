@@ -6,35 +6,41 @@ namespace QuebraNunca
 {
     public class Conta
     {
-        public Atleta atleta;
+        public Atleta Nome {
+            get;
+            set;
+            
+        }
+
         public string descricao;
-        public double saldo;
+        private double _saldo = 100;
+
+        public double Saldo {
+            get {
+                return _saldo;
+            }
+            set {
+              if (value < 0) {
+                    return;
+                }
+
+                _saldo = value;
+            }
+        }
 
         public bool Debitar(double valor) {
-            if (saldo < valor) {
+            if (_saldo < valor) {
                 return false;
             }
             else {
-                saldo -= valor;
+                _saldo -= valor;
 
                 return true;
             }
         }
 
         public void Creditar(double valor) {
-            saldo += valor;
-        }
-
-        public double ObterSaldo() {
-            return saldo;
-        }
-
-        public void DefinirSaldo(double saldo) {
-            if (saldo < 0) {
-                return;
-            }
-
-            this.saldo = saldo;
+            _saldo += valor;
         }
     }
 }
