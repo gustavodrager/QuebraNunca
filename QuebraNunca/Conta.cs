@@ -7,10 +7,26 @@ namespace QuebraNunca
     public class Conta
     {
         public Atleta Nome { get; set;}
-        public string descricao { get; set; }
-        
-        private double _saldo = 100;
 
+        private string _descricao;
+        public string Descricao {
+            get { 
+                return _descricao; 
+            }
+            set { 
+                if (value != "") {
+                    return;
+                }
+                _descricao = value;
+            } 
+        }
+
+        
+        public Conta(string descricao) {
+            Descricao = descricao;
+        }
+
+        private double _saldo = 100;
         public double Saldo {
             get {
                 return _saldo;

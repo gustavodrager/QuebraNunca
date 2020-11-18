@@ -6,7 +6,7 @@ namespace QuebraNunca
     {
         static void Main(string[] args) {
 
-            Conta conta = new Conta();
+            Conta conta = new Conta("Saldo Inicial");
             Atleta atleta = new Atleta();
 
             atleta.Nome = "gustavo";
@@ -15,7 +15,7 @@ namespace QuebraNunca
 
             conta.Saldo = -20;
             conta.Nome = atleta;
-            conta.descricao = "churrasco";
+            conta.Descricao = "churrasco";
 
             Console.WriteLine(conta.Nome.Nome);
             Console.WriteLine(conta.Saldo);
